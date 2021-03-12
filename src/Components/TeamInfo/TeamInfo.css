@@ -1,0 +1,32 @@
+.teamInfo{
+    display:grid;
+    background-color:blue;
+    grid-template-columns: repeat(2,1fr);
+    margin:100px 50px;
+}
+.listInfo,.genderImg{
+    width: 50%;
+   padding: 20px 20px;
+   
+}
+.genderImg img{
+    width: 800px;
+
+}
+.listInfo{
+    color: white;
+    padding: 50px;
+}
+@media (max-width:480px){.teamInfo{
+    display:grid;
+    grid-template-columns: repeat(1,fr);
+}
+.genderImg img {
+    width: 200px;
+}
+}
+
+.bannerImg,.footer{
+    text-align: center;
+    margin: 0px 50px;
+}
