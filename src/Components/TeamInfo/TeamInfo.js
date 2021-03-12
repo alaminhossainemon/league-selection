@@ -7,7 +7,7 @@ import twitter from '../../images/Twitter.png';
 import youtube from '../../images/YouTube.png';
 
 const TeamInfo = (props) => {
-    const {intFormedYear, strCountry,strLeague,strGender, strSport, strDescriptionEN,strFacebook, strInstagram, strStadiumDescription,strTeamBadge,strTeamBanner, strTwitter,strYoutube} = props.team;
+    const {intFormedYear, strCountry,strLeague,strGender, strSport, strDescriptionEN,strFacebook, strStadiumDescription,strTeamBanner, strTwitter,strYoutube} = props.team;
     
     return (
         <div>
@@ -36,7 +36,7 @@ const TeamInfo = (props) => {
                 <p>{strDescriptionEN}</p>
                 <p>{strStadiumDescription}</p>
                 <footer className="footer">
-                    <a href= {strFacebook}>
+                    <a href = {strFacebook}>
                         <img src={facebook} alt=""/>
                         </a>
                 
